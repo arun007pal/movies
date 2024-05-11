@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#3AAA93"
+    android:layout_marginTop="5dp"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+       app:cardCornerRadius="15dp"
+        android:elevation="1dp"
+        >
+
+
+    <ImageView
+        android:id = "@+id/imageView"
+        android:layout_width = "match_parent"
+        android:layout_height = "100dp"
+        android:contentDescription = "All Movies"
+        android:background="#404C3F"
+        android:paddingTop = "10dp"
+        android:src="@drawable/movies1" />
+    <TextView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:paddingTop = "5dp"
+        android:textColor = "#1A3D55"
+        android:textStyle = "bold"
+        android:text = "All Movies And  Series"
+        android:textSize="20dp"
+        android:textAppearance = "@style/TextAppearance.AppCompat.Body1" />
+    <TextView
+        android:id = "@+id/textView"
+        android:textColor = "#3118C8"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "movies" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

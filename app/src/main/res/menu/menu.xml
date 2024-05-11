@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior = "single">
+        <item
+            android:id = "@+id/nav_camera"
+            android:icon = "@drawable/home"
+            android:title = "Home" />
+
+        <item
+            android:id = "@+id/nav_livetv"
+            android:icon = "@drawable/livetv"
+            android:title = "Live TV" />
+
+    </group>
+    <item android:title = "Communicate">
+        <menu>
+            <item
+                android:id = "@+id/nav_telegram"
+                android:icon = "@drawable/telegram_icon"
+                android:title = "Join us on Telegram" />
+            <item
+                android:id = "@+id/nav_share"
+                android:icon = "@drawable/share_icon"
+                android:title = "Share" />
+            <item
+                android:id = "@+id/request_content"
+                android:icon = "@drawable/request_content_icon"
+                android:title = "Request Content" />
+        </menu>
+    </item>
+
+</menu>
